@@ -28,7 +28,7 @@
 // #define V6_330_NO_TITAN_NO_TMC 1
 // #define V6_400_TITAN_TMC 1
 // #define V6_400_NO_TITAN_TMC 1
-// #define V6_500_TITAN_TMC 1
+#define V6_500_TITAN_TMC 1
 
 // #define V5_330_TITAN_TMC 1
 // #define V5_330_TITAN_NO_TMC 1
@@ -58,7 +58,7 @@
 // #define BTT_SKR_TURBO_330_NO_TITAN_TMC_2209_UART 1
 
 // #define TFT_LVGL_UI
-// #define TFT_CLASSIC_UI
+#define TFT_CLASSIC_UI
 // #define TFT_COLOR_UI
 
 #if V6_330_TITAN_TMC
@@ -127,7 +127,7 @@
   #define WITH_TITAN 1
   #define X_BED_SIZE 500
   #define Y_BED_SIZE 500
-  #define Z_MAX_POS 500
+  #define Z_MAX_POS 600
   #define CUSTOM_MACHINE_NAME "Tronxy X5SA V6 500 Titan TMC"
   #define COREXY
 
